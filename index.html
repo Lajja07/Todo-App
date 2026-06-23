@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/js/all.min.js" integrity="sha512-6BTOlkauINO65nLhXhthZMtepgJSghyimIalb+crKRPhvhmsCdnIuGcVbR5/aQY2A+260iC1OPy1oCdB6pSSwQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+    <div class="myCont">
+        <div class="heading">
+        <h1>TODO APP...</h1>
+        </div>
+
+         <div class="input-box">
+           <input id="userIn" type="text" placeholder="Enter your task...">
+           <button  id="addBtn"onclick="onAddTodo()" >Add</button>
+        </div>
+
+        <div class="list-box">
+          <div class="msg">
+          <b id="msg" ></b>
+        </div>
+
+          <div class="taskbox">
+            <h4>Your tasks:</h4><br>
+            <ul id="rootCont"></ul>
+            <b id="Savemsg"></b>
+          </div>
+         
+        </div><br>
+
+          <div class="saveBtn">
+             <button  id="saveBtn1" type="button" onclick="onSaveTodo()">save</button>
+          </div>
+       
+    </div>
+   <script src="script.js" ></script>
+</body>
+</html>
