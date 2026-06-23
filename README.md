@@ -2,6 +2,10 @@
 
 Modern Todo App with add, delete, and persistent storage using Local Storage. Built using HTML, CSS, and JavaScript.
 
+## 📸 Screenshot
+
+![Todo App Screenshot](./todo.png)
+
 ## Features
 
 - Add new tasks
