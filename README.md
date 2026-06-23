@@ -31,7 +31,7 @@ Modern Todo App with add, delete, and persistent storage using Local Storage. Bu
 
 ## Live Demo
 
-(Add your deployed link here if you have)
+https://todo-app-kappa-three-90.vercel.app/
 
 ## Author
 
